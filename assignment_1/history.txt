@@ -1,0 +1,231 @@
+
+    2  /cita/local/bin/passwd
+    3  zoYMfvUxvSwqSbeK
+    4  /cita/local/bin/passwd
+    5  vncserver
+    6  pwd
+    7  git clone https://github.com/CITA/CTA200H.git
+    8  touch fileread.cpp
+    9  git pull
+   10  cd /CTA200H
+   11  git remote --seturl https://github.com/CITA/CTA200H/blob/master/lecture_1_linux_git/git.md
+   12  git remote set-url origin https://github.com/Zoe-Au/CTA200H/tree/master/lecture_1_linux_git
+   13  cd CTA200H
+   14  git remote set-url origin https://github.com/Zoe-Au/CTA200H/tree/master/lecture_1_linux_git
+   15  touch myfile.txt
+   16  git commit
+   17  git add myfile.txt
+   18  git commit -m "Pushing an empty example text file called myfile.txt"
+   19  git push
+   20  git clone https://github.com/Zoe-Au/CTA200H/tree/master/lecture_1_linux_git
+   21  git clone https://github.com/Zoe-Au/CTA200H/tree/41cdc883da266ebfcef8cad10112b0939421b629/lecture_1_linux_git
+   22  touch myfile.txt
+   23  git add myfile.txt
+   24  git commit -m "push example txt file"
+   25  git push
+   26  git remote set-url origin https://github.com/Zoe-Au/CTA200H
+   27  git push
+   28  ls
+   29  ls -l
+   30  ls -ld
+   31  ls -a
+   32  cd
+   33  mkdir
+   34  mkdir --help
+   35  cd /mnt/scratch-lustre/user
+   36  cd /mnt/scratch-lustrerzaugspach
+   37  /mnt/scratch-lustrerzaugspach
+   38  /mnt/scratch-lustre/zaugspach
+   39  whoami
+   40  pwd
+   41  /mnt/scratch-lustre/zaugspach
+   42  pwd
+   43  cd /mnt/scratch-lustre/zaugspach
+   44  pwd
+   45  ssh zaugspach@cosmo3.cita.utoronto.ca
+   46  zaugspach
+   47  ssh zaugspach@cosmo8.cita.utoronto.ca
+   48  mkdir CTA200_2025
+   49  pwd
+   50  cd CTA200_2025
+   51  pwd
+   52  git init
+   53  ls
+   54  touch README.md
+   55  ls
+   56  add README.md
+   57  git add README.md
+   58  git commit 
+   59  git push
+   60  touch output_.txt
+   61  touch history.txt
+   62  git add output_.txt
+   63  git add history.txt
+   64  git commit
+   65  git remote set-url origin https://github.com/Zoe-Au/CTA200_2025.git
+   66  git remote set-url https://github.com/Zoe-Au/CTA200_2025.git
+   67  git push
+   68  pwd
+   69  git remote add CTA200_2025 https://github.com/Zoe-Au/CTA200_2025
+   70  git push CTA200_2025
+   71  git remode add origin https://github.com/Zoe-Au/CTA200_2025
+   72  git remote add origin https://github.com/Zoe-Au/CTA200_2025
+   73  git push -u origin main
+   74  git push -u origin master
+   75  ssh -L 3333:localhost:3333 cosmo8
+   76  module load python/3.10.2
+   77  jupyter notebook --port=3333 --no-browser
+   78  zaugspach@cosmo8.cita.utoronto.ca
+   79  ssh zaugspach@cosmo8.cita.utoronto.ca
+   80  ssh zaugspach@cosmo7.cita.utoronto.ca
+   81  cd mnt/scratch-lustre/zaugspach
+   82  cd mnt/scratch-lustre/user
+   83  ssh -L 3333:localhost:3333
+   84  exit
+   85  ssh -L 3344:localhost:3344
+   86  exit
+   87  /cita/local/bin/passwd
+   88  ssh cosmo7
+   89  ssh -L 3333:localhost:3333
+   90  ssh -L 3333:localhost:3333 cosmo7
+   91  module load python/3.10.2
+   92  jupyter notebook --port=3333 --no-browser
+   93  cosmo3
+   94  ssh cosmo3
+   95  ssh cosmo1
+   96  ssh zaugspach@cosmo3.cita.utoronto.ca
+   97  exit
+   98  ssh cosmo3
+   99  ssh cosmo8
+  100  cosmo8
+  101  ssh cosmo8
+  102  cd /mnt/scratch-lustre/zaugspach
+  103  ach
+  104  cd /mnt/scratch-lustre/user
+  105  cd /mnt/scratch-lustre/zoe
+  106  cd /mnt/scratch-lustre/user
+  107  cd /mnt/scratch-lustre/zaugspach
+  108  pwd
+  109  mkdir CTA200_2025
+  110  cd CTA200_2025
+  111  mkdir assignment_1
+  112  cd assignment_1
+  113  touch README.md
+  114  sed -i '1i Your Title Here' filename.txt
+  115  vi README.md
+  116  ls
+  117  cd ..
+  118  ls
+  119  cd ..
+  120  ls
+  121  cd ..
+  122  ls
+  123  cd murray
+  124  pwd
+  125  ls
+  126  find . -name "Hello_world.c"
+  127  pwd
+  128  find ./ -name "Hello_world.c"
+  129  find ./ -name Hello_world.c
+  130  pwd
+  131  find . -name Hello_world.c
+  132  find . -inname Hello_world.c
+  133  find / -name Hello_world.c
+  134  find / -name "Hello_world.c"
+  135  pwd
+  136  find . -name "Hello_world.c"
+  137  find . -name "Hello_world.c" -print 2>dev/null
+  138  cd ..
+  139  pwd
+  140  cw ..
+  141  cd ..
+  142  pwd
+  143  cd ~
+  144  pwd
+  145  cd ..
+  146  cd /home/murray
+  147  pwd
+  148  find . -name "Hello_world.c"
+  149  find . -name "Hello_world.c" -print 2>dev/null
+  150  pwd
+  151  find . -name "Hello_world.c" -print 2>/dev/null
+  152  cp ./Papers/tmp/Hello_world.c /home/zaugspach/CTA200_2025/assignment_1
+  153  pwd
+  154  cd /home/zaugspach
+  155  pwd
+  156  l
+  157  ls
+  158  cd CTA200_2025
+  159  ls
+  160  cd assignment_1
+  161  cd ./assignment_1
+  162  cd assignment_1
+  163  cd /home/zaugspach/CTA200_2025/assignment_1
+  164  ls
+  165  cd assignment_1
+  166  ls -l
+  167  cd CTA200_2025/assignment_1
+  168  pwd
+  169  mkdir assignment_1
+  170  rm assignment_1
+  171  ls
+  172  mkdir assignment_1
+  173  cd assignment_1
+  174  pwd
+  175  cp home/murray/Papers/tmp/Hello_world.c /home/zaugspach/CTA200_2025/assignment_1
+  176  cp /home/murray/Papers/tmp/Hello_world.c /home/zaugspach/CTA200_2025/assignment_1
+  177  pwd
+  178  ls
+  179  cp /home/murray/Papers/tmp/Hello_world.py /home/zaugspach/CTA200_2025/assignment_1
+  180  find /home/murray -name "Hello_world.py" -print 2>/dev/null
+  181  cd /home/murray
+  182  find . -name "Hello_world.py" -print 2>/dev/null
+  183  cp /home/murray/tmp/Hello_world.py /home/zaugspach/CTA200_2025/assignment_1
+  184  cd /home/zaugspach/CTA200_2025/assignment_1
+  185  ls
+  186  touch README.md
+  187  cd README.md
+  188  vi README.md
+  189  pwd
+  190  ls
+  191  mv Hello_world.c Hello_world_augspach.c
+  192  mv Hello_world.py Hello_world_augspach.py
+  193  ls
+  194  gcc main.c
+  195  gcc Hello_world_augspach.c
+  196  gcc main.c -o myprogram
+  197  gcc Hello_world_augspach.c -o Hello_world.x
+  198  ls
+  199  rm a.out
+  200  ls
+  201  chmod +x Hello_world.x
+  202  ./Hello_world.x
+  203  vi Hello_world.x
+  204  vi Hello_world_augspach.c
+  205  vi Hello_world_augspach.py
+  206  gcc Hello_world_augspach -o output_c.txt
+  207  gcc Hello_world_augspach.py  -o output_c.txt
+  208  gcc Hello_world_augspach.c  -o output_c.txt
+  209  vi Hello_world_augspach.c
+  210  gcc Hello_world_augspach.c  -o output_c.txt
+  211  gcc Hello_world_augspach.c  -o output_c.x
+  212  ./output_c.x
+  213  ls
+  214  rm output_c.txt
+  215  ./output_c.x -o output_c.txt
+  216  ./Hello_world_augspach.py -o output_python.txt
+  217  chmod +x Hello_world_augspach.py
+  218  ./Hello_world_augspach.py -o output_python.txt
+  219  vi Hello_world_augspach.py
+  220  python3 Hello_world_augspach.py
+  221  python3 Hello_world_augspach.py -o output_python.txtoutput_python.txt
+  222  ls
+  223  python3 Hello_world_augspach.py -o output_python.txt
+  224  ls
+  225  python3 Hello_world_augspach.py>output_python.txt
+  226  ls
+  227  ./output_c.x -o output_c.txt
+  228  ls
+  229  ./output_c.x> output_c.txt
+  230  ls
+  231  history>history.txt
