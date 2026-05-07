@@ -1,5 +1,4 @@
-
-    2  /cita/local/bin/passwd
+    2  /cita/local/bin/passwd 
     3  zoYMfvUxvSwqSbeK
     4  /cita/local/bin/passwd
     5  vncserver
